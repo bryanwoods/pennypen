@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PennyPen: Smart Penetration Testing for Less</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .gradient-text {
+            background: linear-gradient(45deg, #3b82f6, #60a5fa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .bg-gradient {
+            background: linear-gradient(135deg, #2563eb, #3b82f6);
+        }
+    </style>
+</head>
+
+<body class="bg-gradient text-white min-h-screen flex flex-col items-center justify-center">
+    <div class="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
+        <div class="absolute w-96 h-96 bg-blue-400 rounded-full filter blur-3xl opacity-20 -top-24 -left-24"></div>
+        <div class="absolute w-96 h-96 bg-blue-300 rounded-full filter blur-3xl opacity-20 top-1/2 -right-24"></div>
+    </div>
+
+    <div class="relative z-10 w-full max-w-2xl p-8 space-y-8">
+        <header class="mb-8">
+            <div class="flex space-x-4 mb-6">
+                <div class="w-8 h-8 bg-white rounded-full"></div>
+                <div class="w-8 h-8 bg-white rounded-full"></div>
+                <div class="w-8 h-8 bg-white rounded-full"></div>
+            </div>
+        </header>
+
+        <main class="space-y-6">
+            <h1 class="text-4xl font-bold mb-4">
+                <span class="gradient-text">Your security compliance costs should be a rounding error.</span>
+            </h1>
+
+            <p class="text-xl leading-relaxed">
+                You need great security to protect your business. But as your security measures mature, you shouldn't
+                need to worry about compliance costs growing out of control.
+            </p>
+
+            <p class="text-xl leading-relaxed">
+                Today, most penetration testing services cost an arm and a leg. AI slop, expensive "expert"
+                fees, and overpriced reports for vulnerabilities your own systems already catch. It's ridiculous.
+            </p>
+
+            <p class="text-xl leading-relaxed">
+                And while your bills increase year over year, the value you get keeps diminishing. Most penetration
+                testing services are redundant. They test the things you're already looking for, rehashing the
+                OWASP Top 10 that your tools already help to avoid. Instead of tailored insights that enhance your
+                security, you're stuck with cookie-cutter reports.
+            </p>
+
+            <p class="text-xl leading-relaxed font-semibold">
+                Take a look at your pen testing bill. How much are you paying every year just to check a box?
+            </p>
+
+            <p class="text-xl leading-relaxed">
+                This isn't rocket science, and it shouldn't cost a fortune. We provide the same service at a fraction of
+                the cost.
+            </p>
+
+            <p class="text-xl leading-relaxed">
+                We want to provide your security team with the compliance artifacts they need, at a fraction of the
+                cost. Our pricing is transparent and predictable, so you'll never be surprised, and
+                you'll never be locked in.
+            </p>
+
+            <h2 class="text-3xl font-bold mt-8 mb-4">
+                For the next six months, we're offering a 50% discount compared to your current
+                provider. Just send us your existing contract, and we'll immediately extend this cost savings to you.
+            </h2>
+
+            <p class="text-xl leading-relaxed">
+                Don't overpay for security theater. Choose smart, efficient compliance testing that respects your
+                existing security measures and your budget.
+            </p>
+            <p class="text-xl leading-relaxed font-semibold">
+                Bryan Woods, CTO & CISO
+            </p>
+        </main>
+
+        <div class="mt-12 p-6 bg-white bg-opacity-10 rounded-lg">
+            <h3 class="text-2xl font-bold mb-4">Get in touch</h3>
+            <form class="flex flex-col sm:flex-row gap-4" action="https://submit-form.com/uKdypg3xD">
+                <input type="email" placeholder="Enter your email"
+                    class="flex-grow px-4 py-2 rounded-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    required>
+                <button type="submit"
+                    class="px-6 py-2 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+                    Submit
+                </button>
+            </form>
+        </div>
+
+        <footer class="mt-8 text-sm font-light">
+            © 2024 PennyPen. All rights reserved.
+        </footer>
+    </div>
+</body>
+
+</html>
